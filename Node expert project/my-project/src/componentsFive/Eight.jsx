@@ -31,7 +31,7 @@ const Eight = () => {
             </div>
 
             <div className="details">
-                <h6 className='black-detail'>Product Manager.</h6> <h6 className='blue-detail'>@Learning.Com</h6>
+                <span className='black-detail'>Product Manager.</span> <span className='blue-detail'>@Learning.Com</span>
             </div>
         </div>
     </div>
