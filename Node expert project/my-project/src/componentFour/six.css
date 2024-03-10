@@ -1,0 +1,162 @@
+.six {
+    border: 1px solid black;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border:none;
+    
+    .card-one {
+        border: 1px solid blue;
+        height: 80px;
+        width: 180px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        border:none;
+
+
+        div{
+            border: 1px solid black;
+            height: 80px;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            border:none;
+
+            span{
+                border: 1px solid black;
+                flex-grow: 1;
+                height: 150px;
+                width: 180px;
+                padding-top: 20px;
+                font-size: 14px;
+                font-weight: bold;
+                color: blue;
+                border:none;
+            }
+        }
+
+       
+
+    }
+
+    .card-two {
+        border: 1px solid blue;
+        height: 80px;
+        width: 150px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        border:none;
+
+        div{
+            border: 1px solid black;
+            height: 80px;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            border:none;
+
+            span{
+                border: 1px solid black;
+                flex-grow: 1;
+                height: 150px;
+                width: 180px;
+                padding-top: 20px;
+                font-size: 14px;
+                font-weight: bold;
+                color: blue;
+                border:none;
+            }
+        }
+
+    }
+
+    .card-three {
+        border: 1px solid blue;
+        height: 80px;
+        width: 150px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        border:none;
+
+        div{
+            border: 1px solid black;
+            height: 80px;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            border:none;
+
+            span{
+                border: 1px solid black;
+                flex-grow: 1;
+                height: 150px;
+                width: 190px;
+                padding-top: 20px;
+                font-size: 13px;
+                font-weight: bold;
+                color: blue;
+                border:none;
+            }
+        }
+
+
+    }
+
+    .card-four {
+        border: 1px solid blue;
+        height: 80px;
+        width: 150px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        border:none;
+
+        div{
+            border: 1px solid black;
+            height: 80px;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            border:none;
+
+            span{
+                border: 1px solid black;
+                flex-grow: 1;
+                height: 150px;
+                width: 110px;
+                padding-top: 20px;
+                font-size: 14px;
+                font-weight: bold;
+                color: blue;
+                border:none;
+            }
+        }
+
+    }
+}
+
+.clipboard {
+    width: 70%;
+    align-self: center;
+    margin-top: 13px;
+    
+}
+
+.people {
+    width: 70%;
+    align-self: center;
+    margin-top: 13px;
+    border-radius: 2rem;
+}
+
+#one {
+    width: 70%;
+    align-self: center;
+    margin-top: 13px;
+    
+}

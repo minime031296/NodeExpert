@@ -1,0 +1,87 @@
+.Cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.img-one-card,
+.img-two-card,
+.img-three-card {
+    display : flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 15px;
+    justify-content: space-evenly ;
+    margin-right: 30px;
+    border-radius: .5rem;
+    border:none;
+}
+
+.img-one-card,
+.img-three-card {
+    display : flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 15px;
+    justify-content: space-evenly ;
+    margin-right: 30px;
+    height: 230px;
+    border:none;
+}
+
+.img-one-card img,
+.img-two-card img,
+.img-three-card img{
+    width: 150px;
+    height: 150px;
+    align-self: center; 
+    justify-self: center;
+    
+    
+}
+
+.img-one-card span,
+.img-two-card span,
+.img-three-card span {
+    border: 1px solid black;
+    height: 20px;
+    width: 140px;
+    margin-top: 5px;
+    align-self: center; 
+    justify-self: center;
+    border:none;
+}
+
+.img-one-card p,
+.img-two-card p,
+.img-three-card p {
+    border: 1px solid black;
+    height: 50px;
+    width: 140px;
+    font-size: smaller;
+    overflow: hidden;
+    align-self: center; 
+    justify-self: center;
+    border:none;
+}
+
+.img-one-card,
+.img-three-card {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: #faf9ff;
+}
+
+.img-two-card {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #faf7e4;
+}
+
+
+.img-one-card:hover,
+.img-two-card:hover,
+.img-three-card:hover {
+    transform: translateY(-5px); 
+    transition: transform 0.3s ease; 
+}
+
+

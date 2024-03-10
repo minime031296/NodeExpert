@@ -1,0 +1,14 @@
+.four {
+    border: 1px solid black;
+    height: 80px;
+    margin-right: 180px;
+    margin-left: 180px;
+    border:none;
+
+    h3{
+        text-align: center;
+        font-size: 23px;
+        border:none;
+    }
+}
+

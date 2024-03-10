@@ -1,0 +1,124 @@
+.Main-container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 300px; 
+    border:none;
+}
+
+.divtextcontent {
+    border: 1px solid blue;
+    height: 250px;
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    border:none;
+
+    .textcontentheader {
+        border: 1px solid pink;
+        height: 100px;
+        width: 100%;
+        font-size: 17px;
+        color: #FFFFFF;
+        font: normal normal medium 55px/73px Roboto;
+        text-transform: capitalize;
+        opacity: 1;
+        border:none;
+    }
+    
+    .textcontentsmall {
+        border: 1px solid blue;
+        height: 100px;
+        width: 100%;
+        color: #FFFFFF;
+        border:none;
+        }
+
+    .accessories {
+        display: flex;
+        flex-direction: row;
+    
+        .img-one {
+            height: 30px;
+            width : 120px;
+            gap : 10px;
+            margin-top:10px;
+            
+        }
+
+        .p-content {
+            margin-left: 20px;
+            color: white;
+            font-size: small;
+            margin-top:16px;
+        }
+
+        .img-two {
+            margin-left: 20px;
+            opacity: 1;
+            width: 12px;
+            height: 7px;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in; 
+        
+        
+        .img-two:hover {
+            transform: translateY(-10px);
+        }
+    }
+        
+    }
+}
+
+.video {
+    border: 1px solid blue;
+    outline: 7px solid rgba(128, 0, 128, 0.521);
+    height: 170px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 35px; 
+    border:none;
+}
+
+.video video {
+    height: 100%;
+    width: 100%;
+   
+}
+
+.btn-video {
+    transform : translateX(200%);
+    transform: translateY(100%)
+
+}
+
+
+
+.video {
+    position: relative;
+}
+
+.btn-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.video-element {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.video-element.playing {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

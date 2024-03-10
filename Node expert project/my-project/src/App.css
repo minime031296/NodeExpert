@@ -1,0 +1,71 @@
+.boxy {
+  border: 1px solid black;
+  height: 180rem;
+  width: 79rem;
+  margin-top: 25px; 
+  margin-bottom: 25px;
+  border:none;  
+
+
+.main {
+  border: 0.5px solid black;
+  margin: 0;
+  padding: 0;
+  height: 33rem;
+  width: 100%;
+  position: relative;
+  background-image: url('./assets/bgimg.png');
+  background-size: cover;
+  border:none;
+  
+  &::before{
+      content: '';
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, .5);
+      background-position: top center;
+      opacity: 0.25;
+  }
+}
+.main-one {
+  border: 1px solid black;
+  height: 410px;
+  margin: 45px 75px;
+  border:none;
+}
+
+.main-two {
+  border: 1px solid black;
+  height: 410px;
+  margin: 45px 75px;
+  border:none;
+}
+
+.main-three {
+  border: 1px solid black;
+  height: 280px;
+  margin: 45px 75px;
+  border:none;
+}
+
+.main-four {
+  border: 1px solid black;
+  height: 500px;
+  margin: 45px 75px;
+  border:none;
+}
+
+.footer {
+  border: 1px solid black;
+  height: 500px;
+  margin: 45px 75px;
+  border:none;
+}
+}
+
+
+
+

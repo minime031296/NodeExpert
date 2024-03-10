@@ -1,0 +1,11 @@
+.five {
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 11px;
+    text-align: center;
+    color: #241B1B;
+    border:none;
+}

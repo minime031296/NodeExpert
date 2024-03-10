@@ -1,0 +1,58 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.loGo {
+    display: flex; 
+    align-items: center; 
+    margin-left: 125px ;
+    margin-top: 30px;
+    color: white;
+    gap: 8px;
+   
+}
+
+.logo {
+    width: 30px;
+    
+}
+
+.navbar {
+    display: flex; 
+}
+
+.navbarItems {
+    display: flex; 
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbarItems a:first-child {
+    text-decoration: underline yellow;
+} 
+
+.alink{
+    margin-right: 10px; 
+    color: white; 
+    font-size: small;
+    text-decoration: none;
+}
+
+
+
+.btn {
+    padding: 10px 20px; 
+    border: none;
+    background-color: yellow; 
+    color: black; 
+    border-radius: 3rem;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 30px;
+}
